@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84386C642046545100930583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84386C632046545100930583 /* AppDelegate.swift */; };
-		84386C662046545100930583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84386C652046545100930583 /* ViewController.swift */; };
-		84386C692046545100930583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84386C672046545100930583 /* Main.storyboard */; };
-		84386C6B2046545100930583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84386C6A2046545100930583 /* Assets.xcassets */; };
-		84386C6E2046545100930583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84386C6C2046545100930583 /* LaunchScreen.storyboard */; };
-		84386C762046547600930583 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84386C752046547600930583 /* MyTextView.swift */; };
+		84663CC22046699000033896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84663CC12046699000033896 /* AppDelegate.swift */; };
+		84663CC42046699000033896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84663CC32046699000033896 /* ViewController.swift */; };
+		84663CC72046699000033896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84663CC52046699000033896 /* Main.storyboard */; };
+		84663CC92046699000033896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84663CC82046699000033896 /* Assets.xcassets */; };
+		84663CCC2046699000033896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84663CCA2046699000033896 /* LaunchScreen.storyboard */; };
+		84663CD420466A1800033896 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84663CD320466A1800033896 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84386C602046545100930583 /* UITextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84386C632046545100930583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84386C652046545100930583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84386C682046545100930583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84386C6A2046545100930583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84386C6D2046545100930583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84386C6F2046545100930583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84386C752046547600930583 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		84663CBE2046699000033896 /* MyTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84663CC12046699000033896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84663CC32046699000033896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84663CC62046699000033896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84663CC82046699000033896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84663CCB2046699000033896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84663CCD2046699000033896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84663CD320466A1800033896 /* MyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84386C5D2046545100930583 /* Frameworks */ = {
+		84663CBB2046699000033896 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84386C572046545100930583 = {
+		84663CB52046699000033896 = {
 			isa = PBXGroup;
 			children = (
-				84386C622046545100930583 /* UITextViewDemo */,
-				84386C612046545100930583 /* Products */,
+				84663CC02046699000033896 /* MyTextViewDemo */,
+				84663CBF2046699000033896 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84386C612046545100930583 /* Products */ = {
+		84663CBF2046699000033896 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84386C602046545100930583 /* UITextViewDemo.app */,
+				84663CBE2046699000033896 /* MyTextViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84386C622046545100930583 /* UITextViewDemo */ = {
+		84663CC02046699000033896 /* MyTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				84386C632046545100930583 /* AppDelegate.swift */,
-				84386C652046545100930583 /* ViewController.swift */,
-				84386C672046545100930583 /* Main.storyboard */,
-				84386C6A2046545100930583 /* Assets.xcassets */,
-				84386C6C2046545100930583 /* LaunchScreen.storyboard */,
-				84386C6F2046545100930583 /* Info.plist */,
-				84386C752046547600930583 /* MyTextView.swift */,
+				84663CD320466A1800033896 /* MyTextView.swift */,
+				84663CC12046699000033896 /* AppDelegate.swift */,
+				84663CC32046699000033896 /* ViewController.swift */,
+				84663CC52046699000033896 /* Main.storyboard */,
+				84663CC82046699000033896 /* Assets.xcassets */,
+				84663CCA2046699000033896 /* LaunchScreen.storyboard */,
+				84663CCD2046699000033896 /* Info.plist */,
 			);
-			path = UITextViewDemo;
+			path = MyTextViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84386C5F2046545100930583 /* UITextViewDemo */ = {
+		84663CBD2046699000033896 /* MyTextViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84386C722046545100930583 /* Build configuration list for PBXNativeTarget "UITextViewDemo" */;
+			buildConfigurationList = 84663CD02046699000033896 /* Build configuration list for PBXNativeTarget "MyTextViewDemo" */;
 			buildPhases = (
-				84386C5C2046545100930583 /* Sources */,
-				84386C5D2046545100930583 /* Frameworks */,
-				84386C5E2046545100930583 /* Resources */,
+				84663CBA2046699000033896 /* Sources */,
+				84663CBB2046699000033896 /* Frameworks */,
+				84663CBC2046699000033896 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UITextViewDemo;
-			productName = UITextViewDemo;
-			productReference = 84386C602046545100930583 /* UITextViewDemo.app */;
+			name = MyTextViewDemo;
+			productName = MyTextViewDemo;
+			productReference = 84663CBE2046699000033896 /* MyTextViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84386C582046545100930583 /* Project object */ = {
+		84663CB62046699000033896 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = tdin360;
 				TargetAttributes = {
-					84386C5F2046545100930583 = {
+					84663CBD2046699000033896 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 84386C5B2046545100930583 /* Build configuration list for PBXProject "UITextViewDemo" */;
+			buildConfigurationList = 84663CB92046699000033896 /* Build configuration list for PBXProject "MyTextViewDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 84386C572046545100930583;
-			productRefGroup = 84386C612046545100930583 /* Products */;
+			mainGroup = 84663CB52046699000033896;
+			productRefGroup = 84663CBF2046699000033896 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84386C5F2046545100930583 /* UITextViewDemo */,
+				84663CBD2046699000033896 /* MyTextViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84386C5E2046545100930583 /* Resources */ = {
+		84663CBC2046699000033896 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84386C6E2046545100930583 /* LaunchScreen.storyboard in Resources */,
-				84386C6B2046545100930583 /* Assets.xcassets in Resources */,
-				84386C692046545100930583 /* Main.storyboard in Resources */,
+				84663CCC2046699000033896 /* LaunchScreen.storyboard in Resources */,
+				84663CC92046699000033896 /* Assets.xcassets in Resources */,
+				84663CC72046699000033896 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84386C5C2046545100930583 /* Sources */ = {
+		84663CBA2046699000033896 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84386C662046545100930583 /* ViewController.swift in Sources */,
-				84386C762046547600930583 /* MyTextView.swift in Sources */,
-				84386C642046545100930583 /* AppDelegate.swift in Sources */,
+				84663CC42046699000033896 /* ViewController.swift in Sources */,
+				84663CD420466A1800033896 /* MyTextView.swift in Sources */,
+				84663CC22046699000033896 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84386C672046545100930583 /* Main.storyboard */ = {
+		84663CC52046699000033896 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84386C682046545100930583 /* Base */,
+				84663CC62046699000033896 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84386C6C2046545100930583 /* LaunchScreen.storyboard */ = {
+		84663CCA2046699000033896 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84386C6D2046545100930583 /* Base */,
+				84663CCB2046699000033896 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84386C702046545100930583 /* Debug */ = {
+		84663CCE2046699000033896 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		84386C712046545100930583 /* Release */ = {
+		84663CCF2046699000033896 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,28 +274,30 @@
 			};
 			name = Release;
 		};
-		84386C732046545100930583 /* Debug */ = {
+		84663CD12046699000033896 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UITextViewDemo/Info.plist;
+				DEVELOPMENT_TEAM = 6Y4W4XMAR5;
+				INFOPLIST_FILE = MyTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tdin360.UITextViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tdin360.MyTextViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		84386C742046545100930583 /* Release */ = {
+		84663CD22046699000033896 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UITextViewDemo/Info.plist;
+				DEVELOPMENT_TEAM = 6Y4W4XMAR5;
+				INFOPLIST_FILE = MyTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tdin360.UITextViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tdin360.MyTextViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84386C5B2046545100930583 /* Build configuration list for PBXProject "UITextViewDemo" */ = {
+		84663CB92046699000033896 /* Build configuration list for PBXProject "MyTextViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84386C702046545100930583 /* Debug */,
-				84386C712046545100930583 /* Release */,
+				84663CCE2046699000033896 /* Debug */,
+				84663CCF2046699000033896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84386C722046545100930583 /* Build configuration list for PBXNativeTarget "UITextViewDemo" */ = {
+		84663CD02046699000033896 /* Build configuration list for PBXNativeTarget "MyTextViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84386C732046545100930583 /* Debug */,
-				84386C742046545100930583 /* Release */,
+				84663CD12046699000033896 /* Debug */,
+				84663CD22046699000033896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84386C582046545100930583 /* Project object */;
+	rootObject = 84663CB62046699000033896 /* Project object */;
 }
